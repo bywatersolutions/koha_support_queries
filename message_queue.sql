@@ -10,6 +10,6 @@ SELECT
 FROM
     message_queue
 WHERE
-    DATE( time_queue ) = CURRENT_DATE
+    DATE( time_queued ) = CURRENT_DATE
 ORDER BY
     time_queued
